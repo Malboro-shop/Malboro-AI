@@ -214,7 +214,7 @@
             if(!userId) return alert("Пожалуйста, введите ваш Telegram ID");
 
             try {
-                const response = await fetch('https://onrender.com', {
+                const response = await fetch('malboro-backend.onrender.comhttps://malboro-backend.onrender.com', {
                     method: 'POST',
                     headers: {'Content-Type': 'application/json'},
                     body: JSON.stringify({ tg_id: userId, product: currentTier })
